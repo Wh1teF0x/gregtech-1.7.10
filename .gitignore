@@ -1,0 +1,14 @@
+/.idea/
+/*
+
+*.json
+*.txt
+*.log
+
+ignored
+
+!.gitignore
+
+!config
+!mods
+!scripts
