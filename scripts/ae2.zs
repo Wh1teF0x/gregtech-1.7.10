@@ -7,9 +7,6 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:44> * 2, [[<ore:cr
 // Накопитель
 recipes.remove(<appliedenergistics2:tile.BlockDrive>);
 recipes.addShaped(<appliedenergistics2:tile.BlockDrive>, [[<ore:plateSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateSteel>], [<appliedenergistics2:item.ItemMultiPart:16>, <ore:circuitBoardAdvanced>, <appliedenergistics2:item.ItemMultiPart:16>], [<ore:plateSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateSteel>]]);
-// Контроллер
-recipes.remove(<appliedenergistics2:tile.BlockController>);
-recipes.addShaped(<appliedenergistics2:tile.BlockController>, [[<ore:circuitBoardAdvanced>, <AdvancedSolarPanel:asp_crafting_items:6>, <ore:circuitBoardAdvanced>], [<ore:crystalPureFluix>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:crystalPureFluix>], [<ore:plateSteel>, <ore:crafting10kCoolantStore>, <ore:plateSteel>]]);
 // Изменчевый кабель
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:16>);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:16> * 4, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:crystalPureFluix>, <appliedenergistics2:item.ItemMultiPart:140>, <ore:crystalPureFluix>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
