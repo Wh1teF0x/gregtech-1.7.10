@@ -1,5 +1,3 @@
-import mods.nei.NEI;
-
 // Генератор
 recipes.remove(<IC2:blockGenerator>);
 recipes.addShaped(<IC2:blockGenerator>, [[<ore:batteryBasic>], [<ore:craftingRawMachineTier02>], [<ore:craftingFurnace>]]);
@@ -21,16 +19,10 @@ recipes.addShaped(<IC2:blockMachine>, [[<ore:plateIron>, <ore:plateIron>, <ore:p
 recipes.remove(<IC2:blockMachine:13>);
 recipes.addShaped(<IC2:blockMachine:13>, [[<ore:plateCupronickel>, <ore:craftingHeatingCoilTier00>, <ore:plateCupronickel>], [<ore:plateCupronickel>, <ore:craftingElectricFurnace>, <ore:plateCupronickel>], [<ore:plateCupronickel>, <ore:plateCupronickel>, <ore:plateCupronickel>]]);
 
-// Remove
 // Кузнечный молот
-NEI.hide(<IC2:itemToolForgeHammer>);
 recipes.remove(<IC2:itemToolForgeHammer>);
+// Кинетический генератор
+recipes.addShaped(<IC2:blockGenerator:9>, [[<IC2:itemCasing:5>, <IC2:itemCasing:5>, <IC2:itemCasing:5>], [<ore:craftingGenerator>, <IC2:itemRecipePart:1>, <IC2:itemRecipePart:12>], [<IC2:itemCasing:5>, <IC2:itemCasing:5>, <IC2:itemCasing:5>]]);
+// Кинетический ветрогенератор
+recipes.addShaped(<IC2:blockKineticGenerator>, [[<IC2:itemRecipePart:12>, <ore:craftingRawMachineTier02>, <IC2:itemRecipePart:12>]]);
 
-// Just hide
-NEI.hide(<IC2:blockMachine:3>);
-NEI.hide(<IC2:blockMachine:2>);
-NEI.hide(<IC2:blockMachine:4>);
-NEI.hide(<IC2:blockMachine:11>);
-NEI.hide(<IC2:blockMachine:5>);
-NEI.hide(<IC2:blockPersonal:1>);
-NEI.hide(<IC2:blockPersonal>);

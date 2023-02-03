@@ -3,6 +3,8 @@ val IGlassPanel = <AdvancedSolarPanel:asp_crafting_items:5>;
 val ThickReflector = <IC2:reactorReflectorThick:1>;
 val IridiumReflector = <gregtech_addon:iridium_neutronreflector>;
 
+<ore:cellEmpty>.add(<IC2:itemFluidCell>)
+
 recipes.removeShaped(MTCore);
 recipes.removeShaped(IridiumReflector);
 recipes.removeShaped(ThickReflector);
@@ -61,3 +63,15 @@ recipes.addShaped(<minecraft:shears>,
     [<ore:ingotSteel>,
      <ore:plateIron>],
    ]);
+
+recipes.addShaped(<IC2:blockMachine:10>, 
+    [[<ore:craftingWireCopper>, 
+      null, 
+      <ore:craftingWireCopper>],
+     [<ore:craftingWireCopper>, 
+      <IC2:itemPartCircuit>, 
+      <ore:craftingWireCopper>], 
+     [<ore:cellEmpty>, 
+      <ore:craftingRawMachineTier01>, 
+      <ore:cellEmpty>]
+     ]);
