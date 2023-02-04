@@ -3,7 +3,7 @@ val IGlassPanel = <AdvancedSolarPanel:asp_crafting_items:5>;
 val ThickReflector = <IC2:reactorReflectorThick:1>;
 val IridiumReflector = <gregtech_addon:iridium_neutronreflector>;
 
-<ore:cellEmpty>.add(<IC2:itemFluidCell>)
+<ore:cellEmpty>.add(<IC2:itemFluidCell>);
 
 recipes.removeShaped(MTCore);
 recipes.removeShaped(IridiumReflector);

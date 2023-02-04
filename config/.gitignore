@@ -5,6 +5,7 @@
 !AppliedEnergistics2/
 AppliedEnergistics2/recipes/generated
 AppliedEnergistics2/recipes/*.html
+!AdvancedSolarPanel*
 !buildcraft/
 !cofh/
 !forestry/

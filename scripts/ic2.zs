@@ -24,5 +24,8 @@ recipes.remove(<IC2:itemToolForgeHammer>);
 // Кинетический генератор
 recipes.addShaped(<IC2:blockGenerator:9>, [[<IC2:itemCasing:5>, <IC2:itemCasing:5>, <IC2:itemCasing:5>], [<ore:craftingGenerator>, <IC2:itemRecipePart:1>, <IC2:itemRecipePart:12>], [<IC2:itemCasing:5>, <IC2:itemCasing:5>, <IC2:itemCasing:5>]]);
 // Кинетический ветрогенератор
-recipes.addShaped(<IC2:blockKineticGenerator>, [[<IC2:itemRecipePart:12>, <ore:craftingRawMachineTier02>, <IC2:itemRecipePart:12>]]);
+recipes.addShaped(<IC2:blockKineticGenerator>, [[<AdvancedSolarPanel:asp_crafting_items:7>, <IC2:itemPartCircuitAdv>, <AdvancedSolarPanel:asp_crafting_items:7>], [<IC2:itemRecipePart:12>, <ore:craftingRawMachineTier02>, <IC2:itemRecipePart:12>], [<AdvancedSolarPanel:asp_crafting_items:7>, <IC2:itemPartCircuitAdv>, <AdvancedSolarPanel:asp_crafting_items:7>]]);
+// Иридиевая пластина
+recipes.remove(<AdvancedSolarPanel:asp_crafting_items:6>);
+recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:6>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:ingotIridium>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
