@@ -4,6 +4,7 @@
 !.gitignore
 !AppliedEnergistics2/
 AppliedEnergistics2/recipes/generated
+AppliedEnergistics2/recipes/*.csv
 AppliedEnergistics2/recipes/*.html
 !AdvancedSolarPanel*
 !buildcraft/
@@ -11,7 +12,6 @@ AppliedEnergistics2/recipes/*.html
 !forestry/
 forestry/gamemodes
 !GregTech/
-!AdvancedMachines.cfg
 !BiblioCraft.cfg
 !chisel.cfg
 !IC2NuclearControl.cfg

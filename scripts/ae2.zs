@@ -3,7 +3,6 @@ recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:43>);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:43> * 2, [[<ore:crafting10kCoolantStore>, <ore:dustFluix>, <ore:crafting10kCoolantStore>], [<appliedenergistics2:item.ItemMultiMaterial:10>, <appliedenergistics2:item.ItemMultiMaterial:22>, <appliedenergistics2:item.ItemMultiMaterial:10>], [<ore:plateSteel>, <ore:circuitBoardAdvanced>, <ore:plateSteel>]]);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:44>);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:44> * 2, [[<ore:crafting10kCoolantStore>, <ore:dustFluix>, <ore:crafting10kCoolantStore>], [<appliedenergistics2:item.ItemMultiMaterial:11>, <appliedenergistics2:item.ItemMultiMaterial:22>, <appliedenergistics2:item.ItemMultiMaterial:11>], [<ore:plateSteel>, <ore:circuitBoardAdvanced>, <ore:plateSteel>]]);
-
 // Накопитель
 recipes.remove(<appliedenergistics2:tile.BlockDrive>);
 recipes.addShaped(<appliedenergistics2:tile.BlockDrive>, [[<ore:plateSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateSteel>], [<appliedenergistics2:item.ItemMultiPart:16>, <ore:circuitBoardAdvanced>, <appliedenergistics2:item.ItemMultiPart:16>], [<ore:plateSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:plateSteel>]]);
@@ -13,7 +12,6 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:16> * 4, [[<ore:plateS
 // Интерфейс
 recipes.remove(<appliedenergistics2:tile.BlockInterface>);
 recipes.addShaped(<appliedenergistics2:tile.BlockInterface>, [[<ore:plateSteel>, <ore:circuitBoardAdvanced>, <ore:plateSteel>], [<appliedenergistics2:item.ItemMultiMaterial:44>, <ore:crafting10kCoolantStore>, <appliedenergistics2:item.ItemMultiMaterial:43>], [<ore:plateSteel>, <ore:circuitBoardAdvanced>, <ore:plateSteel>]]);
-
 // ME Chest
 recipes.remove(<appliedenergistics2:tile.BlockChest>);
 recipes.addShaped(<appliedenergistics2:tile.BlockChest>, [[<ore:plateSteel>, <ore:batteryAdvanced>, <ore:plateSteel>], [<ore:circuitBasic>, <gregtech_addon:metaitem_1:24500>, <ore:circuitBasic>], [<ore:plateSteel>, <ore:crystalPureFluix>, <ore:plateSteel>]]);
@@ -30,18 +28,15 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:25>, [[<ore:plateS
 // Шаблон крафта
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:52>);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:52>, [[<ore:plateElectrum>, <ore:plateRedAlloy>, <ore:plateElectrum>], [<ore:plateRedAlloy>, <appliedenergistics2:item.ItemMultiMaterial:1>, <ore:plateRedAlloy>], [<ore:plateElectrum>, <ore:craftingCircuitTier05>, <ore:plateElectrum>]]);
-
 // 1к кластер
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:35>);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:35>, [[<ore:dustRedstone>, <ore:craftingQuartz>, <ore:dustRedstone>], [<ore:circuitBoardBasic>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:circuitBoardBasic>], [<ore:dustRedstone>, <ore:craftingQuartz>, <ore:dustRedstone>]]);
-
 // Блоки создания
 recipes.remove(<appliedenergistics2:tile.BlockCraftingUnit>);
 recipes.remove(<appliedenergistics2:tile.BlockMolecularAssembler>);
-recipes.addShaped(<appliedenergistics2:tile.BlockMolecularAssembler>, [[<gregtech_addon:components:64>, <gregtech_addon:dataorb>, <gregtech_addon:components:64>], [<ore:circuitMaster>, <gregtech_addon:components:2>, <ore:circuitMaster>], [<gregtech_addon:helium_coolantcell_60>, <appliedenergistics2:item.ItemMultiMaterial:23>, <gregtech_addon:helium_coolantcell_60>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockMolecularAssembler>, [[<gregtech_addon:components:64>, <gregtech_addon:dataorb>, <gregtech_addon:components:64>], [<ore:circuitMaster>, <ore:craftingMTCore>, <ore:circuitMaster>], [<gregtech_addon:helium_coolantcell_60>, <appliedenergistics2:item.ItemMultiMaterial:23>, <gregtech_addon:helium_coolantcell_60>]]);
 recipes.addShaped(<appliedenergistics2:tile.BlockCraftingUnit>, [[<ore:craftingCircuitTier05>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:craftingCircuitTier05>], [<ore:circuitBoardElite>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:circuitBoardElite>], [<ore:craftingCircuitTier05>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:craftingCircuitTier05>]]);
-
-// Изменение крафтов карточк
+// Изменение крафтов карточек
 recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.64k>);
 recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.16k>);
 recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.4k>);
@@ -72,7 +67,6 @@ recipes.addShaped(<extracells:storage.physical:3>, [[<extracells:storage.casing>
 recipes.addShaped(<extracells:storage.physical:2>, [[<extracells:storage.casing>, <extracells:storage.component:2>]]);
 recipes.addShaped(<extracells:storage.physical:1>, [[<extracells:storage.casing>, <extracells:storage.component:1>]]);
 recipes.addShaped(<extracells:storage.physical>, [[<extracells:storage.casing>, <extracells:storage.component>]]);
-
 // Процессоры
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:16>, [[<ore:plateSteel>, <ore:plateElectrum>, <ore:plateSteel>], [<ore:plateElectrum>, <IC2:itemPartCircuit>, <ore:plateElectrum>], [<ore:plateSteel>, <ore:plateElectrum>, <ore:plateSteel>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:17>, [[<ore:plateSteel>, <ore:plateElectrum>, <ore:plateSteel>], [<ore:plateElectrum>, <IC2:itemPartCircuit>, <ore:plateElectrum>], [<ore:plateSteel>, <ore:plateElectrum>, <ore:plateSteel>]]);
@@ -80,14 +74,21 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:18>, [[<ore:plateS
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:23>, [[<ore:plateIron>, <appliedenergistics2:item.ItemMultiMaterial:16>, <ore:plateIron>], [<minecraft:redstone>, <ore:circuitBoardBasic>, <minecraft:redstone>], [<ore:plateIron>, <IC2:itemPartCircuit>, <ore:plateIron>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:24>, [[<ore:plateIron>, <appliedenergistics2:item.ItemMultiMaterial:17>, <ore:plateIron>], [<minecraft:redstone>, <ore:circuitBoardAdvanced>, <minecraft:redstone>], [<ore:plateIron>, <IC2:itemPartCircuit>, <ore:plateIron>]]);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:22>, [[<ore:plateIron>, <appliedenergistics2:item.ItemMultiMaterial:18>, <ore:plateIron>], [<minecraft:redstone>, <ore:circuitPartAdvanced>, <minecraft:redstone>], [<ore:plateIron>, <IC2:itemPartCircuit>, <ore:plateIron>]]);
-
 // Пространсвенные карты
 recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>);
+mods.nei.NEI.hide(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>);
 recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>);
+mods.nei.NEI.hide(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>);
 recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>);
+mods.nei.NEI.hide(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:34>);
+mods.nei.NEI.hide(<appliedenergistics2:item.ItemMultiMaterial:34>);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:32>);
+mods.nei.NEI.hide(<appliedenergistics2:item.ItemMultiMaterial:32>);
 recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:33>);
-
-// Ручная дробилка
-recipes.remove(<appliedenergistics2:tile.BlockGrinder>);
+mods.nei.NEI.hide(<appliedenergistics2:item.ItemMultiMaterial:33>);
+// Фасад
+mods.nei.NEI.hide(<appliedenergistics2:item.ItemFacade>);
+// Высекатель
+recipes.remove(<ae2stuff:Inscriber>);
+mods.nei.NEI.hide(<ae2stuff:Inscriber>);

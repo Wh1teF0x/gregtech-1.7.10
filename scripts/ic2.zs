@@ -18,9 +18,9 @@ recipes.addShaped(<IC2:blockMachine>, [[<ore:plateIron>, <ore:plateIron>, <ore:p
 // Индукционная печь
 recipes.remove(<IC2:blockMachine:13>);
 recipes.addShaped(<IC2:blockMachine:13>, [[<ore:plateCupronickel>, <ore:craftingHeatingCoilTier00>, <ore:plateCupronickel>], [<ore:plateCupronickel>, <ore:craftingElectricFurnace>, <ore:plateCupronickel>], [<ore:plateCupronickel>, <ore:plateCupronickel>, <ore:plateCupronickel>]]);
-
 // Кузнечный молот
 recipes.remove(<IC2:itemToolForgeHammer>);
+mods.nei.NEI.hide(<IC2:itemToolForgeHammer>);
 // Кинетический генератор
 recipes.addShaped(<IC2:blockGenerator:9>, [[<IC2:itemCasing:5>, <IC2:itemCasing:5>, <IC2:itemCasing:5>], [<ore:craftingGenerator>, <IC2:itemRecipePart:1>, <IC2:itemRecipePart:12>], [<IC2:itemCasing:5>, <IC2:itemCasing:5>, <IC2:itemCasing:5>]]);
 // Кинетический ветрогенератор
@@ -28,4 +28,9 @@ recipes.addShaped(<IC2:blockKineticGenerator>, [[<AdvancedSolarPanel:asp_craftin
 // Иридиевая пластина
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items:6>);
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:6>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:ingotIridium>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+// Механизмы
+mods.nei.NEI.hide(<IC2:blockMachine:3>);
+mods.nei.NEI.hide(<IC2:blockMachine3:1>);
+mods.nei.NEI.hide(<IC2:blockMachine:4>);
+mods.nei.NEI.hide(<IC2:blockMachine:5>);
 
