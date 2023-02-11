@@ -1,2 +1,4 @@
 recipes.remove(<BuildCraft|Builders:machineBlock>);
-recipes.addShaped(<BuildCraft|Builders:machineBlock>, [[<ore:gearSteel>, <ore:circuitElite>, <ore:gearSteel>], [<ore:circuitMaster>, <ore:gearSteel>, <ore:circuitMaster>], [<IC2:blockMachine2:11>, <IC2:itemToolDDrill:*>, <IC2:itemScannerAdv:1:*>]]);
+recipes.addShaped(<BuildCraft|Builders:machineBlock>, [[<ore:gearSteel>, <ore:circuitElite>, <ore:gearSteel>], [<ore:circuitMaster>, <ore:gearSteel>, <ore:circuitMaster>], [<IC2:blockMachine2:11>, <IC2:itemToolDDrill:*>, <IC2:itemScannerAdv:26>.anyDamage()]]);
+recipes.addShapeless(<minecraft:clay_ball>*4, [<ThermalExpansion:material:514>, <ThermalExpansion:material:514>, <minecraft:dirt>, <ore:cellWater>]);
+recipes.addShapeless(<minecraft:clay_ball>*4, [<ThermalExpansion:material:514>, <ThermalExpansion:material:514>, <minecraft:dirt>, <IC2:itemFluidCell>.withTag({Fluid: {FluidName: "water", Amount: 1000}})]);

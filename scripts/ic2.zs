@@ -21,6 +21,8 @@ recipes.addShaped(<IC2:blockMachine:13>, [[<ore:plateCupronickel>, <ore:crafting
 // Кузнечный молот
 recipes.remove(<IC2:itemToolForgeHammer>);
 mods.nei.NEI.hide(<IC2:itemToolForgeHammer>);
+// Лазер
+recipes.addShaped(<IC2:itemToolMiningLaser:1>, [[<ore:lenseRuby>, <ore:crafting360kCoolantStore>, <ore:batteryElite>], [<ore:plateTitanium>, <ore:plateTitanium>, <ore:circuitAdvanced>], [null, <ore:plateAlloyAdvanced>, <ore:plateAlloyAdvanced>]]);
 // Кинетический генератор
 recipes.addShaped(<IC2:blockGenerator:9>, [[<IC2:itemCasing:5>, <IC2:itemCasing:5>, <IC2:itemCasing:5>], [<ore:craftingGenerator>, <IC2:itemRecipePart:1>, <IC2:itemRecipePart:12>], [<IC2:itemCasing:5>, <IC2:itemCasing:5>, <IC2:itemCasing:5>]]);
 // Кинетический ветрогенератор
@@ -28,6 +30,8 @@ recipes.addShaped(<IC2:blockKineticGenerator>, [[<AdvancedSolarPanel:asp_craftin
 // Иридиевая пластина
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items:6>);
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:6>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:ingotIridium>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+// Бур
+recipes.addShaped(<GraviSuite:advDDrill:27>, [[<GraviSuite:itemSimpleItem:3>, <gregtech_addon:advanced_drill:1>, <GraviSuite:itemSimpleItem:2>], [<gregtech_addon:components>, <gregtech_addon:metaitem_2:31084>, <gregtech_addon:metaitem_2:31316>], [<gregtech_addon:metaitem_2:31316>, <ore:craftingSuperconductor>, <gregtech_addon:components:1>]]);
 // Механизмы
 mods.nei.NEI.hide(<IC2:blockMachine:3>);
 mods.nei.NEI.hide(<IC2:blockMachine3:1>);
