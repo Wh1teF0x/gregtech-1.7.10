@@ -1,7 +1,7 @@
-./mods/armorstatushud-client-1.28.jar
-./mods/InventoryTweaks-1.59-dev-152.jar
-./mods/MouseTweaks-2.4.4-mc1.7.10.jar
-./mods/StatusEffectHUD-client-1.27.jar
-./mods/WorldEditCuiFe-v1.0.7-mf-1.7.10-10.13.4.1566.jar
-./mods/Xaeros_Minimap_21.10.31_Forge_1.7.10.jar
-./mods/XaerosWorldMap_1.14.1.22_Forge_1.7.10.jar
+./minecraft/mods/armorstatushud-client-1.28.jar
+./minecraft/mods/InventoryTweaks-1.59-dev-152.jar
+./minecraft/mods/MouseTweaks-2.4.4-mc1.7.10.jar
+./minecraft/mods/StatusEffectHUD-client-1.27.jar
+./minecraft/mods/WorldEditCuiFe-v1.0.7-mf-1.7.10-10.13.4.1566.jar
+./minecraft/mods/Xaeros_Minimap_21.10.31_Forge_1.7.10.jar
+./minecraft/mods/XaerosWorldMap_1.14.1.22_Forge_1.7.10.jar
