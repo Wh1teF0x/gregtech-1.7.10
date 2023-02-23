@@ -31,10 +31,11 @@ recipes.addShaped(<IC2:blockKineticGenerator>, [[<AdvancedSolarPanel:asp_craftin
 recipes.remove(<AdvancedSolarPanel:asp_crafting_items:6>);
 recipes.addShaped(<AdvancedSolarPanel:asp_crafting_items:6>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:ingotIridium>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 // Бур
-recipes.addShaped(<GraviSuite:advDDrill:27>, [[<GraviSuite:itemSimpleItem:3>, <gregtech_addon:advanced_drill:1>, <GraviSuite:itemSimpleItem:2>], [<gregtech_addon:components>, <gregtech_addon:metaitem_2:31084>, <gregtech_addon:metaitem_2:31316>], [<gregtech_addon:metaitem_2:31316>, <ore:craftingSuperconductor>, <gregtech_addon:components:1>]]);
+recipes.addShaped(<GraviSuite:advDDrill:27>, [[<GraviSuite:itemSimpleItem:3>, <gregtech_addon:advanced_drill:127>, <GraviSuite:itemSimpleItem:2>], [<gregtech_addon:components>, <gregtech_addon:metaitem_2:31084>, <gregtech_addon:metaitem_2:31316>], [<gregtech_addon:metaitem_2:31316>, <ore:craftingSuperconductor>, <gregtech_addon:components:1>]]);
+// Утилизатор
+recipes.addShaped(<IC2:blockMachine:11>, [[null, <minecraft:glowstone_dust>, null], [<minecraft:dirt>, <ore:craftingRawMachineTier02>, <minecraft:dirt>], [<ore:gearSteel>, <ore:craftingCompressor>, <ore:gearSteel>]]);
 // Механизмы
 mods.nei.NEI.hide(<IC2:blockMachine:3>);
 mods.nei.NEI.hide(<IC2:blockMachine3:1>);
 mods.nei.NEI.hide(<IC2:blockMachine:4>);
 mods.nei.NEI.hide(<IC2:blockMachine:5>);
-

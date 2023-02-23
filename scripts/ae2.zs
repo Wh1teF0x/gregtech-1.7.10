@@ -96,3 +96,10 @@ mods.nei.NEI.hide(<appliedenergistics2:item.ItemFacade>);
 // Высекатель
 recipes.remove(<ae2stuff:Inscriber>);
 mods.nei.NEI.hide(<ae2stuff:Inscriber>);
+// Разбор дисков
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:38>, [<appliedenergistics2:item.ItemBasicStorageCell.64k>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:37>, [<appliedenergistics2:item.ItemBasicStorageCell.16k>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:36>, [<appliedenergistics2:item.ItemBasicStorageCell.4k>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:35>, [<appliedenergistics2:item.ItemBasicStorageCell.1k>]);
+// Изменчивые кристалы
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:7> * 2, [<appliedenergistics2:item.ItemMultiMaterial:1>, <ore:gemQuartz>, <ore:dustRedstone>]);
