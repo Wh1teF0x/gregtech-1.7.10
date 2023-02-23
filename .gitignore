@@ -8,6 +8,8 @@
 ignored
 
 !.gitignore
+!script.sh
+!ignore_mods.txt
 
 !config
 !mods
