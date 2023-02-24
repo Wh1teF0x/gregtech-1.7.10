@@ -12,6 +12,11 @@ recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:16> * 4, [[<ore:plateS
 // Интерфейс
 recipes.remove(<appliedenergistics2:tile.BlockInterface>);
 recipes.addShaped(<appliedenergistics2:tile.BlockInterface>, [[<ore:plateSteel>, <ore:circuitBoardAdvanced>, <ore:plateSteel>], [<appliedenergistics2:item.ItemMultiMaterial:44>, <ore:crafting10kCoolantStore>, <appliedenergistics2:item.ItemMultiMaterial:43>], [<ore:plateSteel>, <ore:circuitBoardAdvanced>, <ore:plateSteel>]]);
+recipes.addShapeless(<appliedenergistics2:tile.BlockInterface>, [<appliedenergistics2:item.ItemMultiPart:440>]);
+// Жидкостный интерфейс
+recipes.remove(<extracells:ecbaseblock>);
+recipes.addShaped(<extracells:ecbaseblock>, [[<ore:plateSteel>, <ore:crafting10kCoolantStore>, <ore:plateSteel>], [<appliedenergistics2:item.ItemMultiMaterial:44>, <ore:circuitBoardAdvanced>, <appliedenergistics2:item.ItemMultiMaterial:43>], [<ore:plateSteel>, <ore:crafting10kCoolantStore>, <ore:plateSteel>]]);
+recipes.addShapeless(<extracells:ecbaseblock>, [<extracells:part.base:9>]);
 // ME Chest
 recipes.remove(<appliedenergistics2:tile.BlockChest>);
 recipes.addShaped(<appliedenergistics2:tile.BlockChest>, [[<ore:plateSteel>, <ore:batteryAdvanced>, <ore:plateSteel>], [<ore:circuitBasic>, <gregtech_addon:metaitem_1:24500>, <ore:circuitBasic>], [<ore:plateSteel>, <ore:crystalPureFluix>, <ore:plateSteel>]]);
